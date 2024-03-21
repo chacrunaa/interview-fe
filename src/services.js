@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const backendUrl = "https://interview-test.ru/api";
+const backendUrl = "https://interview-test.ru";
 
 const createPost = async (postData) => {
   try {
