@@ -4,7 +4,7 @@ const backendUrl = "https://interview-test.ru/api";
 
 const createPost = async (postData) => {
   try {
-    const response = await axios.post(backendUrl, postData);
+    const response = await axios.post(`${backendUrl}/posts`, postData);
 
     return response.data;
   } catch (error) {
